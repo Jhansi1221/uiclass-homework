@@ -1,0 +1,56 @@
+Home work 3 -- December-20-2016
+1) How to resolve merge conflicts?
+Step 1: Pull the changes
+Step 2: Open the file which we are going to upload and find for the symbols like <<<<<<, >>>>>>> or =========. Delete the lines which consists of the above symbols and save it.
+Step 3: Now stage the file in the source tree. Commit and push it.
+Step 4: If there are no additional changes made while pushing the file, it will be successfully updated. Else, again a merge conflict occurs. Then follow the steps again to resolve the conflicts.
+
+2) what is html? how to create a html document?
+HTML is a Hyper Text Markup Language. This language is used to design webpages using text like html elements and tags in it. HTML document can be created using any editor and save it with .html extension instead of .txt. When this file opened in a browser, a webpage can be seen.
+
+3) what is doctype?
+Doctype is the first thing in a html document even before the <html> tag. It is uses to describe the browser what version of html document it is. There are For this version, we have to indiacte as follows <!DOCTYPE html>
+
+4) what is an tag and element in html?
+A tag is an indication of opening and closing of an element, whereas a html element consists of a opening tag, content and closing tag.
+
+Example 1: This is an example of element.
+<body>
+Hi everyone
+</body>
+
+Example 2: This is an example of tag.
+<body> </body>
+
+5) what is an attribute in html?
+An element in html can contain one or more attributes which gives more information about that element. We can customize the element using these attributes. For example, <table> tag contains attributes like align, width, border, bgcolor, etc.
+
+6) create a simple html page? write code.
+<!DOCTYPE html>
+<html>
+<title> UI TRAINING</title>
+<body bgcolor="black" >
+<font color="white">
+<center> <h1>UI TRAINING</h1></center>
+
+Hello guys, this is the website to teach about UI training. We are going to learn about few things
+
+<ol>
+	<li> Git</li>
+	<li> Github</li>
+	<li> HTML</li>
+	<li> JS</li>
+	<li>jQuery</li>
+	<li>CSS</li>
+</ol>
+
+Before learning, we have to install some softwares in our machines. They are:
+<ol>
+	<li> Sublime Text 3 editor</li>
+	<li> Sourcetree</li>
+	<li> Git </li>
+	
+</ol>
+</font>
+</body>
+</html>

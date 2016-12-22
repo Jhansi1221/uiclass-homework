@@ -1,0 +1,28 @@
+Homework 1 :
+1) what is version control tool?
+Version control tool manages the various versions or revisions made to a program, a document or a website. All the versions are numbered according to the timestamp when they are changed. This helps the programmer to know if any other team member has made changes to the document or the program and can update to it.
+
+2) what is repository? 
+Repository is a place where we can store any file and any changes made to those files. The information present in the repository can be downloaded in the local machine of the user or can be stored in the server.
+
+3) why do we need to use repository in software development? 
+To store all the large sized files, programs, videos, etc, repository is a must for software development.
+
+4) what is GIT?
+Git is a command line tool. Here, we use commands to make any change to the file like removing a file, renaming a file, pulling a file, etc. These changes are reflected in the server.
+
+5) what is github?
+Github is a Git repository hosting service. Along with the features provided by git, it also provides additional features like bug tracking, issue management, allows to access other's repositories, allows to share our repositories to others and our own repositories can be stored.
+
+6) differences between git and github?
+Git is used to make changes in the code. It doesn't need internet service to make changes. Pull, push, commit and many more can be made using git. It is a command line tool.
+
+Github is a server that stores the code of a project. It has a graphical user interface for easy usage and all the features of git along with bug tracking, issue management, etc can also be done in github. In order to use github, internet service is needed i.e., to make changes to the code web is used.
+
+7) what is pull, push, commit in git? 
+Pull: To download the changes that has been done by another team member to the file in our local machine 'pull' should be used.
+Push: To make the changes to file present in the server, 'push' should be used.
+Commit: In order to save the changes to the file in the loacl machine, 'Commit' should be used.
+
+8) what are merge conflicts?
+When two or more people make changes to the same file and at the same time, it will lead to a merge conflict.

@@ -1,0 +1,31 @@
+Home work 4 -- December-21-2016
+ 1) how to create a list in html? orderlists and un orderlists 
+ List can be created with an order or without an order. In order to create an ordered list <li> tag should be used inside <ol> tag. Ordered list is ordered with numbers by default and the ordering can be changes to alphabet, roman numbers by including the attribute 'type'.
+ Unordered lists are the lists with no numbering or alphabet beside the items of a list. This can be created using <li> tag inside a <ul> tag. Instead of numbers, symbols like circle, square can be placed here by using the attribute 'style'.
+
+ 2) how to include images in html?
+ Images can be included using <img> tag. It contains the attribues like src, height, width, alt, etc. In the 'src' attribute address of the image can be given. It can be both locall address or web address.
+
+ 3) how to take user input in html? 
+ User input can be taken by using <input> in the the <form> tag. This tag contains attributes like type, name, etc. In the 'type' attribue text, checkbox, button, password, time, week ,etc can be used.
+
+ 4) how to have links to different web pages and link to differnt part of same webpage? 
+ Link to a webpage can be given using the <a> tag by using the attribute 'href'. If we want to link to a different webpage, then include a url in the href. Ex: <a href="www.w3schools.com"> 
+ If we want to link to the different part of the same webpage, then the part where the link should be navigated should be given a name using 'name' attribute in <a> element. And that name should be written in the href with a "#" in front of it for the word that has to be hyperlinked. Ex: <a href = "#namewritten"
+
+ 5) what is head, body, html element and why do we need them in the page? 
+ Head: In the head, a title for the webpage can be included. Any links, styles, scripts for the webpage can also be included in the head.
+ Body: The content we want to show in the webpage should be written in the body section.
+ Html: It tells the browser that it is  a html document and everything including the head and body should be included in html tag.
+
+ 6) what are semantic element, descibe about each one of them?
+ Semantic elements are the elements which describes its meaning by its name. Following are some of the semantic elements:
+ section: It can be used to group a content with a heading.
+ aside: By using this element, all the content is placed aside in a webpage.
+ header: A header to the webpage can be included by using this element.
+ footer: Footer can be included at the bottom of the webpage.
+ article: Independent and self-contained content can be included using this element
+ figure: Image and a caption to it can be included using figure element
+ figcaption: A caption to an image can be given.
+ nav: Navigation of links can be included using this element.
+ main: Specifies the main content of a webpage

@@ -1,0 +1,75 @@
+Home work 5 -- December-26-2016 explain with examples:
+ 1) explain all input types with examples 
+    text: It allows the user to write one line text. Ex: <input type="text" name="collegename">
+    number: It allows the user to write a number. Ex: <input type="number" name="age">
+    password: It hides the user input. Ex: <input type="password" name="pwd">
+    date: It allows the user to enter the date. <input type="date" name="birthday">
+    month: Month and year can be selected by using this. <input type="month" name="bdaymonth">
+    week: Date picker can be shown to the user to select the week. <input type="week" name="Week">
+    color: Color picker can be shown to the user in order to select a color. <input type="color" name="Color">
+    button: Button can be created using this type. The text given in the value attribute is displayed on the button. Ex: <input       type="button" name="submit" value="Click me">
+    Submit: This alloes the user to create a button called submit and this button submits the data to the server. Ex: <input type="submit" value="submit">
+    Reset: This creates a button called Reset which clears all the information written in the input fields. <input type="Reset">
+    Checkbox: This creates checkboxes and one or more checkboxes can be clicked. Ex: <input type="Checkbox" name="technology1" value="Java"
+    Radio button: It creates more than one radio button from which only one can be selected. Ex: <input type="radio" name="student" value="yes" checked> Yes
+    <input type= "radio" name="student" value="no"> No 
+    tel : It allows the user to enter telephone number. <input type="tel" name="office">
+    email: ALoows the user to enter email id. <input type="email" name="email-id">
+    url: It allows the user to enter url of a webpage. <input type="url" name="URL">
+    range: It allows the user to enter a range of numbers by using the min and max values. <input type="range" name="marks" min="0" max="100">
+    Search: It allows the user to search using this search field. <input type="search" name="searchfield">
+
+
+
+ 2) explain all the input attributes? 
+ value: Value attribute can be used to give an initial value to the input field.
+ disabled: This attribute disables the input field i.e., the iput field cannot be clicked.
+ readonly: THe input field cannot be changed if readonly attribute is specified.
+ size: Size for the input field can be given using this attribute.
+ maxlength: MAximum no. of characters which can be entered by the user can be specified using this attribute.
+ autocomplete: Autocomplete can have two values on or off. By specifying the value as on indicates that the browser can complete the form automatically if the user hass filled it earlier. It cn also be turned off usng the value off.
+ novalidate: By writing this attribute, the form will not be validated while submitting.
+ autofocus: This attribute makes the cursor placed in the input field when the page is loaded.
+ height and width: An image height and width can be set using these attributes.
+ list: A dropdown box can be inserted with any number of options using list attribute.
+ multiple: Using this attribute, a user can select more than one value in the given input field.''
+ pattern: This attribute is used to check the user's input against a given pattern in the form of a regular expression.
+ required: This attribute specifies that the input filedd should be mandatorily filled. It should not be left without writing.
+ placeholder: It is used to write a hint in the given input field.
+ step: It is used to specify intervals for the user input. 
+
+ 3) what are sematic elements ?
+ Semantic elements are the elements which describes its meaning by its name. Following are some of the semantic elements:
+ section: It can be used to group a content with a heading.
+ aside: By using this element, all the content is placed aside in a webpage.
+ header: A header to the webpage can be included by using this element.
+ footer: Footer can be included at the bottom of the webpage.
+ article: Independent and self-contained content can be included using this element
+ figure: Image and a caption to it can be included using figure element
+ figcaption: A caption to an image can be given.
+ nav: Navigation of links can be included using this element.
+ main: Specifies the main content of a webpage
+
+
+ 4) diff between article, section, div
+ Article: It is a semantic element. Article tag specifies it as an  indepedent, self content, i.e., If the content wants to be unique and should be represented from the rest of the website, then article tag should be used.
+ Section: It is a semantic element. Section tag is used to group a content using headings like chapters, headers, footers. This is mainly used to group a content.
+ Div:It is a block level elemnt. This tag has no menaing and it is used to group some content in order to style them using css. 
+
+
+ 5) explain with exmaples about <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time> 
+
+ 6) what are form and what is form validation in html? 
+   Form allows the user to create an online form which includes text fields, buttons, radio buttons, checkboxes, date pickers, time pickers, etc. In order to insert all the above input types , form element should be used.
+   Form validation in html means validating the user input by the restrictions. This can be done using some attributes.
+   For example, in an input field called Telephone number, only numbers should be given. Text should not be given and only 10 digits not more than that. In order to restrict the input field with all these conditions is called Form validation.
+
+ 7) differences between html4 and html5? explain in more details 
+    In HTML4, declaring a doctype is very big, whereas in HTML5 it is very short i.e., <!Doctype html>
+    In HTML5 there were no audio and video tags,  whereas in HTML5 so many new tags are included along with audio, video tags. They are article, header, footeraside,canvass, command, data, nav, summary, output, figcaption, figure, source, main, time, etc.
+    In HTML5 new form elements are intorduced. They are date, time, local time, week, month, email, url, search, tel, color, range, number, password.
+    In HTML4 , javascript doesn't run in the browser, whereas in HTML5 it runs in the background.
+    HTML4 uses cookies, whereas HTML5 uses local storage instead of cookies.
+    HTML5 supports all the new browsers, whereass HTML4 doesnt support new browsers but old browsers.
+
+ 

@@ -1,0 +1,4 @@
+Inline elements - dont come in a new line EX: span
+Block elements - come in a new line everytime Ex: div, p, etc.
+
+&nbsp(non breakable space): It is used to insrt spaces in  the webpage.

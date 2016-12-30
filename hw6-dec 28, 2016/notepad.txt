@@ -1,0 +1,26 @@
+explain with examples:
+
+ 1) different types in css? 
+ Inline style: Styles can be written directly in the tag which we want to style. This style can be applied to only this line.
+ Ex: <h1 style="color:blue"> Heading </h1>
+
+ Internal style: If every page in a website has unique style, internal style can be used. This can be done using 'style' tag and it should be placed in 'head' tag.
+ Ex: <style> 
+ body{ color: blue}
+ </style>
+ 
+ External style: Styles for different elements can be written in a css file and that file can be linked in a html file using 'link' element. This element should be placed in the head element in the html document
+ Ex: <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+ 
+
+ 2) what is cascading in css? 
+ When a same element has different styles declared in different types of css, a conflict occurs which style should be applied. In that case, casacding order helps. Inline style has the highest priority among all the three styles, then external style sheets and then browser's default style. Hence, if a <h1> element has two different styles defined in both inline and external style sheet, then the style defined in inline is applied, because it overrides the external style sheet.
+
+ 3) why do we need to use css? 
+ In order to style the webpage, css should be used. Styling can be done using HTML also, but there are more options in css. By using css, styles can be defined using less code even for longer web pages which saves time, which in turn helps loading the webpage faster. This also gives flexibility.
+
+ 4) which type of css is a better practice? 
+ External style sheet is the best practice of css. It is the best, because the style sheet can be seperated from the design content, easily accessible to the robots(search engines), code won't be longer, maintainence is easy and the page loads faster.
+
+ 5) what are selectors and why do we need them in css?
+ Selectors are used to select any elements using some patterns. We can select a class, an id, attributes, psuedo selectors, selectors based on relationship, etc. In order to select a class, '.classname' is used. '#idname' is used to select an id. '*'' is used to select all elements. By using this selectors, we can select a particular element and style for all such elements.

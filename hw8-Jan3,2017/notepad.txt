@@ -1,0 +1,44 @@
+Home work 8 -- January-02-2016 explain with examples: 
+1) what are psuedo classes in css? 
+Pseudo classes are used to define the special state of an element like changing the color of the link when a mouse is hovered on it or when it is clicked or to change the focus of an input element, etc. It is denoted by :
+
+2) what are pusedo elements in css? 
+Pseudo elements are used to style a specific parts of an element like first letter, first line, insertin before or after an element. It is denoted by ::
+
+3) diff between pusedo classes and psuedo elements? 
+Pseudo classes are used to style the elements that are present in the markup language and the styling can be done based on the position of mouse or clicking a link etc. Whereas, pseudo elements are used to style the virtual elements i.e., the elements to be styled are not present in the code actually. Styles can be applied when the user selects the content, etc.
+
+4) explain all pusedo classes and elements with examples? http://www.w3schools.com/cssref/css_selectors.asp 
+
+pseudo elements:
+
+::first-line --> To style the first line of an element
+::first-letter --> to style the first letter of a line
+::before --> to display something before some content
+::after --> tp display something after the content
+::selection --> to style the content when the user selected it.
+
+pseudo classes:
+
+:active --> It styles the active hyperlink
+:visited --> styles the link that is visited
+:link  --> styles the link 
+:hover --> styles the link on which is mouse is hovered or placed
+:checked --> styles the checked element
+:disabled --> styles the disabled input element
+:enabled --> styles the enabledd input element
+:empty --> styles all the element with no child
+:first-child --> styles all the elements that is the first child of the parent element
+:focus --> styles the input element that has being focsed
+:invalid --> styles all the elements with invalid value
+:last-child --> styles all the elements that is the last child of the parent
+:valid --> styles all the elements that are valid value
+:root --> styles the root element of the document
+:nth-child --> styles the nth child of a parent
+
+
+5) what are media queries in css and how can you use them ? 
+Media queries are used when we have to apply styles for a block level element and only when a condition is true. For example, a webpage when opened in mobile or tablet should has different styles than the desktop webpage. At that time, we have to use media queries to check the screen size of the device and apply the styles according to the size.
+
+6) what is responsive web design?
+Responsive web design is desiging a website in such a way that it can be opened in any device with a good look i.e., website designed for a desktop should work well when opened in a mobile device too.

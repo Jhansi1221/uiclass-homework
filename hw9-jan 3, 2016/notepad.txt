@@ -1,0 +1,40 @@
+Home work 9 -- January-03-2016 explain with examples for all question below: 
+
+1) what are media queries? 
+Media queries are used to style the block-level elements only if the given condition is true.
+
+2) In media queries what are following properties min-width, max-width, resolution, screen, print, speech, with examples 
+min-width --> If the width of the screen of the device is minimum than the given min-width, the given style applies.
+max-width --> If the width of the screen of the device is maximum than the given max-width, the given style applies.
+min-resolution --> Applie sa style sheet, if the screen has a minimum resolution as specified.
+screen --> If the media device has a screen, the styles can be applied.
+print --> Styles can be applied to print media
+speech --> Styles can be applied to screen readers which reads the conent present in the page.
+
+3) what are position property values in css (static, relative, absolute, fixed) explain differences ? 
+static: static position is the position of the element in the normal flow i.e., It is not placed in any special way.
+relative: It is the position relative to the normal position i.e., we can place an element some distance right or left or bottom or top to the normal position.
+absolute: It is the position relative to the closest ancestor that is positioned.
+fixed: It is a fixed position in a webpage and it wont be moved even if the page is scrolled.
+
+
+4) what is a float and clear property in css? 
+float: It is used to wrap the text around images.
+Clear: It is used to manage the wrapped text around images. i.e., We can avoid wrapping text around images using clear property
+
+5) what is bootstrap grid system? rows and columns? 
+Bootstrap grid system allows upto 12 columns for a screen. And we can combine columns to make it wider. Columns must always be placed in rows.
+
+6) what are xs, sm, md, lg in bootstrap? 
+xs - phones
+sm - tablets
+md - desktops
+lg - large desktops
+
+7) differences between container and container-fluid? 
+container --> It is used to provide some common styles for padding, aligning, margins, fonts and colors. It can be specially used for articles, headers, footers, form, div, section.
+
+container-fluid --> Container-fluid spans the entire width of a viewport
+
+8) what are the break points to be use in media queries for mobile, tablets, medium size desktops and large desktops?
+When we want a particular part of the design has to behave differently, we have to add breakpoints. In specific, if we want to change the design when we zoomed in the screen or when the webpage is opened in a tablet or a mobile, we have to add breakpoints.

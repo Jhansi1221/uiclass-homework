@@ -16,13 +16,20 @@
 	}
 
 	#form1{
-		background-color: green;
+		background-color: coral;
+		width: 100px;
 		}
-	img[src]{
+
+	figure {
 		border: 5px solid orange; 
 		float: left;
-		margin: 0 30px 0 10px;
+		margin: -10px 30px -5px 10px;
+		text-align: center;
 	}	
+    
+    .container1{
+    	width: 400px;
+    }
 
 	div p {
 		font-style: italic;
@@ -31,7 +38,6 @@
 	}
 
 	
-
     figcaption, li {
     	font-style: italic; 
         
@@ -51,16 +57,16 @@
     	font-variant:  small-caps;
     }
    
-   h1 + p::first-line{
-     color:green;
+   p+center::first-line{
+    
      font-variant: small-caps;
    }
     
-   h1+p::first-letter{
-    	color:red;
+   p+center::first-letter{
+    	color:orange;
     	font-size: 150%;
     }
-
+    
    ::selector {
    	background-color: pink;
    	color: red;
@@ -69,8 +75,8 @@
     a:visited {color: green}
     a:hover {background-color: yellow}
     input:checked {height: 25px; width: 25px;}
-    input:enabled{background-color: pink}
-     input:focus{background-color: yellow}
+    input:enabled{background-color: silver}
+     input:focus{background-color: gray}
      p:last-child{font-size:50px; color: green;}
      p:nth-last-child(3){color: red}
      p :first-child {text-decoration: underline;}
@@ -84,26 +90,67 @@
      }
      
       .fixed{
-      	 position: fixed;
+    position: fixed;
     bottom: 0;
     right: 0;
     width: 220px;
     border: 3px solid #73AD21;
     background-color: yellow;
-
       } 
+
  input[name="submit"]{
-  position: relative;
-  
+  padding: 2px 20px 2px 20px;
+  margin: 0 0 0 90px;
+  background-color: lightgrey;
  }
 
+ h4{
+ 	text-decoration: underline;
+ 	padding-left: 10px;
+ 	padding-bottom: -20px;
+ 	 }
+
+
+@media screen and (max-width:480px){
+	/*
+	 extra small screen 
+	*/
+	body{background-color: pink}
+}
+@media screen and (min-width:480px) and (max-width: 768px){
+	/*
+	small screen
+	*/
+	body{background-color: orange}
+}
+@media screen and (min-width:768px) and (max-width: 994px){
+	/*
+	medium screen
+	*/
+	body{background-color: green}
+}
+@media screen and (min-width:994px) and (max-width: 1200px){
+	/*
+	desktops screen
+	*/
+	body{background-color: yellow}
+}
+@media screen and (min-width:1200px){
+	/*
+	 large desktops
+	*/
+	body{background-color: grey}
+}
 </style>
 </head>
 
 <div class="w3-container w3-red">
 <h1>UI TRAINING</h1>
 </div>
-<p> Hello guys, this is the website to teach about UI training. We are going to learn about few things </p>
+
+<p><center> Hello guys, this is the website to teach about UI training. We are going to learn about few things </center></p>
+
+
 <figure>
 	<img src="http://cephalicvein.com/wp-content/uploads/2016/08/image-html-basics-of-html-crafthubs.jpg" width= "250" height="150">
      <figcaption  > Fig 1: HTML </figcaption>
@@ -111,9 +158,10 @@
 	
 <p>Welcome to HTML.com. Our goal is to provide the most helpful and complete guide to creating web pages anywhere. If you're just beginning, you can start to learn HTML here.</p>
 
+<p>HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. </p>
+<p>Along with HTML, we are going to learn about the following topics.</p>
 
-<p>HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags</p>
-
+<h4>TOPICS</h4>
 <ol>
 	<li> Git</li>
 	 <li><a href="#github"> Github </a></li>
@@ -145,7 +193,7 @@ Before learning, we have to install some softwares in our machines. They are:
 	<li> Git </li>
 	
 </ol>
-<br><br>
+
 
 <br>
 <h1> GITHUB </h1>

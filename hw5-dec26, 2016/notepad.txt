@@ -52,7 +52,7 @@ Home work 5 -- December-26-2016 explain with examples:
 
 
  4) diff between article, section, div
- Article: It is a semantic element. Article tag specifies it as an  indepedent, self content, i.e., If the content wants to be unique and should be represented from the rest of the website, then article tag should be used.
+ Article: It is a semantic element. Article tag specifies it as an  indepedent, self content, i.e., If the content wants to be unique and should be represented from the rest of the website, then article tag should be used. If this tag is removed, no traces about the entity would be left.
  Section: It is a semantic element. Section tag is used to group a content using headings like chapters, headers, footers. This is mainly used to group a content.
  Div:It is a block level elemnt. This tag has no menaing and it is used to group some content in order to style them using css. 
 
@@ -71,5 +71,7 @@ Home work 5 -- December-26-2016 explain with examples:
     In HTML4 , javascript doesn't run in the browser, whereas in HTML5 it runs in the background.
     HTML4 uses cookies, whereas HTML5 uses local storage instead of cookies.
     HTML5 supports all the new browsers, whereass HTML4 doesnt support new browsers but old browsers.
+    HTML5 input validations 
+    drag and drop attributes are introduced in html5
 
  

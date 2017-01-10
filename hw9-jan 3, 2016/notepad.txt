@@ -25,8 +25,9 @@ Clear: It is used to manage the wrapped text around images. i.e., We can avoid w
 5) what is bootstrap grid system? rows and columns? 
 Bootstrap grid system allows upto 12 columns for a screen. And we can combine columns to make it wider. Columns must always be placed in rows.
 
-6) what are xs, sm, md, lg in bootstrap? 
-xs - phones
+6) what are xs, sm, 
+md, lg in bootstrap? 
+xs - phones and handheld
 sm - tablets
 md - desktops
 lg - large desktops

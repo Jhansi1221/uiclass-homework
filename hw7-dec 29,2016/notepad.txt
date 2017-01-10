@@ -1,0 +1,39 @@
+Home work 7 -- December-29-2016 explain with examples: 
+
+1) what is the differences between id, class, attribute, tagName selectors and differences between them, when to use what?
+id --> It is used when only one element has to be styled.
+class --> It is used when multiple different elements has to be styled.
+attribute --> It can be used when an attribute of any element has to be styled.  
+tagname --> When a particular tag has to be syled, we can use a tagname selector.
+
+2) what is css Specificity? --> explain with all possible examples(of all variations)? 
+Specificity is a number given to the css declaration, based on the selector types. By looking at that number, the browser decides which styling should be applied when there are multiple styles for a same element. 
+
+	0 for tagname selectors and pseudo-elements (:before)
+	1 for class selectors, attribute selectors and pseudo-classes(:hover)
+	2 for Id selectors
+
+
+3) look into all css selectors ? explain with examples? http://www.w3schools.com/cssref/css_selectors.asp 
+
+4) look into all css properties ? explain with examples? http://www.w3schools.com/cssref/default.asp 
+
+5) descendent selectors in css? 
+Here, two selectors can be placed side by side with a space and if the second selector is present in the first selector, the styling is applpied. 
+
+6) child selector in css? 
+Here, two selectors are placed with the > symbol in between them. The elements matched by the second selector are selcted only when it is the direct child to the first selector. 
+
+7) adjacent sibiling selectors in css? 
+ Here, two selectors are placed with + symbole placed in between them. The elements matched by the second selector should be immediately followed by the first selector.
+
+8) multiple selectors in css? using , comma 
+When more than one element has to be styled in the same way, we can use this. All the elements has to be seperated using comma and then styling can be written.
+
+9) varaiations in attribite based selectors?
+[attribute=value] --> Select all the elements with the attribute that has exactly the given value.
+[attribute ~= value] --> Select all the elements with the attribute that cointains the exact value.
+[attribute |= value] --> Select all the elements with the attribute that starts with the value or anything follows the value with '-'
+[attribute ^= value] --> Select all the elements with the attributes that start with the value.
+[attribute $= value] --> Select all the elements with the attribute that end with the value.
+[attribute *= value] --> Select all the elements with the attribute that contains the given value.

@@ -1,0 +1,38 @@
+Home work 10 -- January-08-2016 explain with examples? 
+1) bootstrap buttons? 
+Bootstrap provides 7 diffrent styles of buttons. They are .btn-default, .btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-link.
+Buttons' size can also be changed to 4 sizes for four different screens using btn-lg, btn-md, btn-sm, btn-xs. The button size can also be changes to the span of entire width of the screen using btn-block. It can also be activated or disabled using .active and .disabled respectively.
+
+2) bootstrap input and input-sizing? 
+All input types can be added to a webpage using bootstrap. In order to include input types, we have to include a class called 'form-group'.  
+textboxes - type="text"
+password - type="password"
+textarea - class="form-control" rows="5"
+radio - type="radio" and class="radio-inline" for horizontal radio buttons
+checkbox - type="checkbox" and class="checkbox-inline" for horizontal checkboxes
+
+input sizing acn be done in diff heights using input-lg, input-md, input-sm and input-xs classes. Icons can be added to the inputs by using input-group class. After the input tag, inlude an <i> tag with a class called glyphicon and the icon's name. This whole thing should be palced in a class called input-group.
+
+
+3) bootstrap glyphicon?
+Glyphicons are the samll icons that can be used in text, buttons, input, navigation bars, etc.
+There are 260 icons that can be used. Example: print icon, mail icon, search icon, download icon, etc
+
+
+4) bootstrap, images, wels, jumbotron, panel, alerts, badges, labels, lists, pagination, pills , tabs, ...
+ images --> Using bootstrap images can be converted to rounded corners or circle or thumbnails. Images can also be made web responsive.
+ 
+ jumbotron --> It displays a big box in a webpage which gives much importance to that section of a webpage. Other bootstrap elements can also be added in the jumbotron. This can be placed inside the container class to not to extend the screen edge, else it can be placed outside the container class.
+ 
+ wells --> Wells also display a box around an element. Along with it, it adds rounded corners and grey background and some padding to it. It can be made in three different sizes. well-sm, well and well-lg for small. normal and large boxes respectively.
+ 
+ panels --> panels are used to display borders around any content along with some padding using panel-body. Headings, footers can be added to panels using panel-heading, panel-footer classes. Colors can also be added to the panels using classes like panel-primary, panel-default, panel-success, panel-info, panel-warning, panel-danger. Many panels can be grouped by removing the bottom margin using panel-group class.
+
+alerts --> Alerts are used to easily dispaly alert in a webpage for success, warning, info and danger with the help of alert-success, alert-warning, alert-info and alert-danger respectively. These alerts can be removed when the close button is clicked using the alert-dismissable class. This closing alerts can be animated using fade in. Links can also be created to alerts using alert-link
+
+badges --> Numbers which act as indicators are calle das badges. These can be included using .badge class in span. 
+
+labels --> Labels are used to additional info about anything and these labels can be added using a class called 'label'. Colors can be added to labels using label-primary, label-warning, etc
+
+pagination --> It is used when there are so many pages in our website. 
+

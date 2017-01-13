@@ -1,0 +1,7 @@
+explain with examples?
+
+1) what are the data types in java script?
+2) what are the diff between java and javascript espically in terms of variables?
+3) why do we use javascript in web pages?
+4) how to include javascript into webpages?
+5) where to include java script in webpages and why?

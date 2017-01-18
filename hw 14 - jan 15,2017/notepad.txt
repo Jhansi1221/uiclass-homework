@@ -4,7 +4,28 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
+Number:
+
+Number.isNaN() --> Determines whether the give value is NaN or not. Ex: Number.isNaN(0) //true
+
+Number.isInteger() --> determines if the given number is an integer or not. Ex: Number.isInteger(564.009) //false
+
+Number.parseInt() --> Parses the number into an integer. Ex: Number.parseInt(34.56) //34
+
+Number.parseFloat() --> Parses the given number into a float. Ex: Number.parseFloat(34.56) //34.56
+
+Number.isFinite() --> determines if the given number is finite or not. Number.isFinite("infinity")
+false
+
+Number.toFixed() --> Returns the given number by fixing it to the given position. Ex: 234.452324.toFixed(3) //234.452
+
+Number.toExponential() --> Converts a number to an exponential number Ex:numObj.toExponential();  // logs 7.71234e+1
+
+
+
+
 Strings: 
+
 string.fromCharCode --> This gives the characters from the given char code. Ex: string.fromCharCode(65,66); // "AB"
 
 String.charAt() --> This method gives the cahracter located at the given position in the string. Ex: hello.charAt(4); //o

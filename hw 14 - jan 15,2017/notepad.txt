@@ -1,0 +1,62 @@
+Home work 14 -- January-15-2016 explain with examples? 
+1) all methods for numbers, string, array 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
+Strings: 
+string.fromCharCode --> This gives the characters from the given char code. Ex: string.fromCharCode(65,66); // "AB"
+
+String.charAt() --> This method gives the cahracter located at the given position in the string. Ex: hello.charAt(4); //o
+
+String.concat() --> This method combines a string to another string. Ex: "Hello ".concat("Jhansi") // Hello Jhansi
+
+String.endsWith() --> This method returns true or false if the given string ends with the characters that are given in the bracket. Ex: "hello Jhansi".endsWith("Jhansi"); //true
+
+String.includes() --> This method returns true or false if a string lies in the given string. Ex: "hello jhansi".includes("hi"); //false
+
+String.indexOf() --> This method returns the index of the a string in the given string or else it returns -1. Ex: "hello jhansi".indexOf(" jh"); //5
+
+String.split() --> This method divides a string into substrings. We can even split using a seperator like a comma or any other symbol. Ex: "hi Jhansi, how are you".split(" "); // ["hi", "Jhansi", "how", "are" , "you"]
+
+String.repeat() --> This method concatenates the given string repeatedly by the given parameter. Ex: world.repeat(4); //worldworldworldworld
+
+String.slice() --> This method returns a substring of the give string. Ex: "hi Jhansi, how are you".slice(3,8); //Jhans
+
+String.trim() --> This method removes all the white spaces present in the given string. Ex:  "           hi Jhansi,      how are you        ".trim(); // "hi Jhansi,      how are you"
+
+String.toUpperCase() --> This method converts the given string into all uppercase. Ex: "hello world".toUpperCase(); // "HELLO WORLD"
+
+
+
+
+Arrays:
+
+Array.join() --> This method joins the given array. It joins with seperator if mentioned. Ex: ["hi", "Jhansi", "how", "are" , "you"].join('/'); // "hi/Jhansi/how/are/you"
+
+Array.of() --> creates an array with the given parameters. Ex: Array.of("one", "two","three"); //["one","two","three"]
+
+Array.length() --> Returns the length of the array. Ex: ["one","two","three"].length; //3
+
+Array.concat() --> Concatenates the give array with the given parameters. Ex: ["one","two","three"].concat(1) // ["one", "two", "three", 1]
+
+Array.every() --> It checks the given condition with every element in the array. 
+
+Array.some() --> Checks the condition with some of the elements in the array.
+
+Array.forEach() --> This method is used to loop over an array.
+
+Array.push() --> Inserts an element at the end of an array. ["one","two","three"].push("1") // ["one","two","three", "1"]
+
+Array.pop() --> Removes an element from the end of an array. Ex: ["one","two","three", "1"].pop(); //["one","two","three"]
+
+Array.shift() --> Removes an element from the starting of an array. ["one","two","three", "1"].shift(); //[two","three", "1"]
+
+Array.unshift() --> Adds an element to the starting of an array. ["one","two","three", "1"].unshift("2"); //["2", "one","two","three", "1"]
+
+Array.indexOf() --> returns the index of the given element in the array. ["one","two","three", "1"].indexOf("1"); //4
+
+Array.sort() --> returns the array in a sorted order.
+Ex: ["one","two","three", "1"].sort(); //["1", "one", "three", "two"]
+
+Array.reverse() --> returns the array in a reverse order. Ex:["one","two","three", "1"].reverse(); //["1", "three", "two", "one"]

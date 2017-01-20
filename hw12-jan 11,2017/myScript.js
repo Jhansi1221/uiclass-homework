@@ -11,15 +11,12 @@ console.log(typeof a);
 x=2|22;
 console.log(x);
 
-x=2&22;
-console.log(x);
 
-x=2&&22;
-console.log(x);
+var x = new String('1');
+console.log(x.toString()); // logs 'Hello world'
 
-x=2||22;
-console.log(x);
-
-
-x=22||2;
-console.log(x);
+i=0;
+while(i<10){
+	i++;
+	console.log(i);
+}

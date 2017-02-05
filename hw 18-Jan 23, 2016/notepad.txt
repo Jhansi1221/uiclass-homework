@@ -1,0 +1,44 @@
+Homework 20 -- January-23-2016
+explain by examples
+
+1) What is call, apply and bind in javascript?
+call is used to change the values of the keyword 'this'. 
+ex: function1.call(name, 'Jhansi', 'Sneha', 'Sandeep');
+
+apply is also used to change the values of the keyword 'this'. But, the values are passed in an array here.
+ex: function1.call(name, ['Jhansi', 'Sneha', 'Sandeep']);
+
+bind is used to assign a function with an already existing function if they have the same body.
+ex: var sum = function(a, b) {
+  return a + b;
+};
+var add5 = sum.bind(null, 5);
+console.log(add5(10)); // 15
+
+2)what is context in javascript?
+
+3)What is lexical scope?
+Lexical scoping: Variables declared outside of a function are global variables and are visible everywhere in a JavaScript program. Variables declared inside a function have function scope and are visible only to code that appears inside that function.
+Ex: var scope = 5;
+function whatismyscope(){
+   var scope = 10;
+   function func() {return scope;}
+   return func;
+}
+whatismyscope()(); //10
+
+4) What is for in loop?
+For in loop iterates over the properties of an object.
+Ex: var obj = {a: 1, b: 2, c: 3};
+    
+	for (var prop in obj) {
+	  console.log('obj.' + prop, '=', obj[prop]);
+	}
+
+	// Output:
+	// "obj.a = 1"
+	// "obj.b = 2"
+	// "obj.c = 3"
+
+
+

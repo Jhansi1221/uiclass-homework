@@ -1,4 +1,4 @@
-Homework 20 -- January-23-2016
+Homework 18 -- January-23-2016
 explain by examples
 
 1) What is call, apply and bind in javascript?

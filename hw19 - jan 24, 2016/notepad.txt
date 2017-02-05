@@ -1,0 +1,27 @@
+Homework 19 -- January-24-2016
+explain by examples
+
+1) what is self ? why do we use it?
+Self is one of the window properties. It is used when we have to compare the current window object with any other window objeccts. For example, to know if the current window i.e window.self is the top most window(window.top).
+
+2) what are closures?
+
+3) what is hoisting?
+Hoisting is moving the declarations to the top, but not the initializations i.e., variables can be used even before declaration, but the initialization of variables can't be done after using them.
+
+ex: x=5;
+   console.log(x); // 5
+   console.log(y); //undefined
+   var x;
+   var y=9;
+
+4) what are the different events in java script or dom?
+  Differernt events in javascript or dom are clicking on a button, moving the mouse over a text, loading a page, closing a page, mouse click, pressing a key, changing text input, etc
+
+5) how to attach event listener to an elements?
+  Event listeners can be added to an element with the help of event hanlers.
+  Ex: document.getElementById("myBtn").addEventListener("click", displayDate);
+
+      function displayDate() {
+         document.getElementById("demo").innerHTML = Date();
+     }

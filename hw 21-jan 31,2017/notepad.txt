@@ -1,0 +1,28 @@
+Homework 21 -- January-31-2016
+1) what is element.addEventListener(event, eventHandler, captureFlag) in java script?
+This is the syntax for adding event listners to any DOM object or any HTML element. First parameter is the event i.e., click or mouse over or key etc. Second parameter is the event handler i.e., the function to be called when the event occurs. Third parameter is captureFlag for Event bubbling. The default value of the flag is false and event bubbling occurs and if it is set to true, event capturing occurs.
+
+2) what is a selector in java script?
+In javascript, we can select elements by using id, class, tagName or using css selectors. Like document.getElementById, document.getElementsByClassName, document.getElementsByTagName, document.querySelectorAll
+
+3) what is id, class, tagName?
+id is used to style an element uniquely and hence one id should be given to one element only.
+Same class name can be given to multiple elements in order to style all the elements in the same way.
+tagname is the html tag that can be given to html text. By using the tag name also we can style the html page.
+
+4) document.getElementById, document.getElementsByClassName, document.getElementsByTagName, document.querySelectorAll
+document.getElementById() --> gets all the elements that matches by ID
+document.getElementsByClassName --> gets all the elements that matches by class name
+document.getElementsByTagName --> gets all the elements that matches by tag name
+document.querySelectorAll(css selectors) --> gets all the elements that matches by the given css selector
+
+
+5) event propagation?
+Event propagation decides which event should occur first when there is an element inside another element. For example, if there is a <p> element in a <div> element and when the user clicks the <div> element, event propogation will decide which event should be handled first.
+
+6) what is event bubbling ane event captuing?
+Event bubbling: Here, the inner element's event is handled first and then the outer element.
+Event Capturing: Here, the outer element's event is handled first and then the inner element.
+
+7) what is even.stopPropagation vs event.stopImmediatePropagation in javascript?
+event.stopPropagation will only stop the current listener and the remaining listeners doesn't stop. Whereas, event.stopImmediatePropagation will stop all the listeners.

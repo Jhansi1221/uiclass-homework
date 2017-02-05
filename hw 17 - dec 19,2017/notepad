@@ -1,0 +1,50 @@
+Home work 17 -- January-19-2016
+explain with examples:
+1) What is Object.defineProperty? and all possible configuration options? description?
+The Object.defineProperty() method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
+The possible configurations are: configurable, writable, enumerable, value, get and set
+
+2) What is Object.defineProperties? and all possible configuration options? description?
+This can change many properties either new or existing ones at a time. Everything is same as the object.defineProperty()
+
+3) what is Object.create, Object.keys?
+Object.create(): This method creates an object with the specifies prototype and properties.
+Object.keys() :This methos returns the keys for the values in the object.
+
+4) can we create object from functions?
+Yes, we can create an object using funtions.
+Ex: var obj= new function(){
+	this.name=name;
+}
+var c= new obj("hello");
+
+5) what is a prototype?
+
+
+6) what is this keyword and its significance?
+When we create a new object, the current object is referred as 'this'.
+Ex: var obj = {
+    name: "obj",
+    f: function () {
+        return this + ":" + this.name;
+    }
+};
+document.write(obj.f());  //[object Object]:obj
+
+7) what is window?
+All global variables are attached to an object called window.
+var a=10;
+function func(){
+	var b=10;
+}
+window.a; //10
+window.b; //undefined
+
+8) also look into functions? and what is a callback function?
+A function that takes other functions as arguments or returns functions as its result is called a higher-order function, and the function that is passed as an argument is called a callback function. 
+ex: function fullName(firstName, lastName, callback){
+  console.log("My name is " + firstName + " " + lastName);
+  callback(lastName);
+}
+
+fullName("Jackie", "Chan", function(ln){console.log('Welcome Mr. ' + ln);}); // Welcome Mr. Jackie Chan

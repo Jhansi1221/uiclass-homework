@@ -1,0 +1,39 @@
+Homework 20 -- January-25-2016
+explain by examples?
+1) what is IIFE? why do we need to use?
+IIFE is the immmediately invoked function expression, which means it in invoked immediae=tely after defining it. By using this IIFE,we dont have to create global variables and functions. The JS code gets maintainable. It doesn't make conflicts with other variables or functions with the same name.
+Ex: 
+<p id="demo"> </p>
+<script>
+(funtion (){
+	var age=20;
+   document.getElementByID("demo").innerHTML = "Person age is: "+age;
+})();
+</script>
+
+2) what is namespacing in java script? why do we need to use it?
+Namespacing is used to group similar functions or variables which are also availble in other libararies or classes. We use it to avoid naming collisions.
+
+
+3) what is module pattern?
+
+4) is it a good practice to have too many global variables or functions ? why if yes ? why if no?
+No, its not a good practice to include so many global variables and functions in javascript. Because, it slows down the script to find the global variables and there's a great chance to forget that we have already declared a global scope and we end up declaring it again which results in over writing the global variable.
+
+5) what are HTML dom events?
+Javascript can be written for HTML events like mouse click, page loading, image loading, when an input text is changed, etc. For example, we can change the text or background color of a text when a mouse is hovered on it. This is called a HTML DOM event.
+
+
+6) what is an event listener in javascript? how can we configure them?
+Event listener listens which type of event has been happened and triggers the action written in the event handler which is attatched to the event listener. One or more event handlers can be attached to one event listener. Event listeners can be added to any DOM objects like HTML DOM events, window objects, etc.
+
+
+7) what is event handler?
+The function that tells what to do when an event occurs is called an event handler.
+
+8) what is event propagation? what bubbling and capturing?
+Event propagation decides which event should occur first when there is an element inside another element. For example, if there is a <p> element in a <div> element and when the user clicks the <div> element, event propogation will decide which event should be handled first.
+
+There are two ways: 
+Event bubbling: Here, the inner element's event is handled first and then the outer element.
+Event Capturing: Here, the outer element's event is handled first and then the inner element.

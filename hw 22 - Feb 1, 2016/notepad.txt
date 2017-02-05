@@ -1,0 +1,33 @@
+1) What are the dom properties and methods?
+Dom property is the value that we can set to an object. Whereas, Dom method is the action we want to perform.
+Ex: document.getElementById("demo").innerHTML = "Hello World!";
+Here, getElementById is the method and innerHTML is the the property.
+
+2) What is BOM (Browser Object Model)?
+Browsers feature a Browser Object Model (BOM) that allows access and manipulation of the browser window. Using the BOM, developers can move the window, change text in the status bar, and perform other actions that do not directly relate to the page content.
+
+3)Ajax in Javascript
+AJAX stands for Asynchronous JavaScript and XML. It uses the XMLHttpRequest object to communicate with server-side scripts. It can send as well as receive information in a variety of formats, including JSON, XML, HTML, and even text files. It uses Javacript and HTML DOM to display the data.
+
+4)What is jQuery?
+jQuery is a javascript library and it makes easier to use javascript on our websites
+
+5)Can jQuery do some work, what javascript cannot do?
+No, jQuery cannot do work that javascript cannot do. Because, jQuery is a library of javascript.
+
+6) What is $ in jQuery?
+$ in jQuery is used as a selector to find the elements. 
+Ex: $("p")--> This finds all the <p> elements
+
+7) Differences between jQuery versions 1.x vs 2.x vs 3.x?
+Versions of 2.x leave behind the older Internet Explorer 6, 7, and 8 browsers. In return they are smaller, faster, and can be used in JavaScript environments where the code needed for old-IE compatibility often causes problems of its own.
+
+In Jquery 3.x there are several changes. They are:
+-->For of loop is introduced to loop over iterable objects like arrays, map, set , etc
+-->It gets rid of the already deprecated context, support, and selector properties
+-->It gets rid of the already deprecated load(), unload(), and error() shortcut
+methods.
+-->The use of bind(), delegate(), unbind(), and undelegate() has been discouraged and no further action was taken
+-->The name of the property is in camel-case with no dash while in the previous versions it remained lowercase and retained the dash. It has been changed to align the dataset specifications.
+-->The new version of jQuery modifies the meaning of the :visible and :hidden filters. Elements will be considered :visible if they have any layout boxes, including those of zero width and/or height. For example, br elements and inline elements with no content will now be selected by the :visible filter.
+-->adds a new signature for the $.get() and the $.post() utility functions to align them to $.ajax()

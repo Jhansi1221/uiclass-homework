@@ -1,0 +1,11 @@
+Homework 28 -- Februrary-27-2016
+1) develop a simple single page application with ui.router?
+2) In ui.router what is multiple views?
+3) In ui.router what is nested views?
+4) In ui.router what is nested routes?
+5) diff between ui.router vs ngRoute?
+6) what is state in ngRoute?
+7) download node.js
+8) what is node.js? why do you have to use it?
+9) what is callback? what is asynchronous?
+10) please install git.
